@@ -14,6 +14,7 @@
 		E849DAE71C2ACA3E00187805 /* Beon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E849DAE51C2ACA3E00187805 /* Beon.xcdatamodeld */; };
 		E849DAE91C2ACA3E00187805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E849DAE81C2ACA3E00187805 /* Assets.xcassets */; };
 		E849DAEC1C2ACA3E00187805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E849DAEA1C2ACA3E00187805 /* LaunchScreen.storyboard */; };
+		E88843461CA9D550001A7240 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88843451CA9D550001A7240 /* LoginStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E849DAE81C2ACA3E00187805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E849DAEB1C2ACA3E00187805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E849DAED1C2ACA3E00187805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88843451CA9D550001A7240 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,8 @@
 		E849DADD1C2ACA3E00187805 /* Beon */ = {
 			isa = PBXGroup;
 			children = (
+				E88843471CA9D5AC001A7240 /* Model */,
+				E88843431CA9D50B001A7240 /* Screens */,
 				E849DADE1C2ACA3E00187805 /* AppDelegate.swift */,
 				E849DAE01C2ACA3E00187805 /* ViewController.swift */,
 				E849DAE21C2ACA3E00187805 /* Main.storyboard */,
@@ -89,6 +93,29 @@
 				E849DAE51C2ACA3E00187805 /* Beon.xcdatamodeld */,
 			);
 			path = Beon;
+			sourceTree = "<group>";
+		};
+		E88843431CA9D50B001A7240 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E88843441CA9D530001A7240 /* Login */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E88843441CA9D530001A7240 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E88843451CA9D550001A7240 /* LoginStoryboard.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E88843471CA9D5AC001A7240 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +182,7 @@
 				E849DAEC1C2ACA3E00187805 /* LaunchScreen.storyboard in Resources */,
 				E849DAE91C2ACA3E00187805 /* Assets.xcassets in Resources */,
 				E849DAE41C2ACA3E00187805 /* Main.storyboard in Resources */,
+				E88843461CA9D550001A7240 /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
