@@ -30,6 +30,7 @@
 		E849DAEB1C2ACA3E00187805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E849DAED1C2ACA3E00187805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E88843451CA9D550001A7240 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		E888434B1CA9E36D001A7240 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		E849DADD1C2ACA3E00187805 /* Beon */ = {
 			isa = PBXGroup;
 			children = (
+				E888434A1CA9DF67001A7240 /* Views */,
 				E88843471CA9D5AC001A7240 /* Model */,
 				E88843431CA9D50B001A7240 /* Screens */,
 				E849DADE1C2ACA3E00187805 /* AppDelegate.swift */,
@@ -98,6 +100,7 @@
 		E88843431CA9D50B001A7240 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				E88843481CA9D733001A7240 /* AbstractVC */,
 				E88843441CA9D530001A7240 /* Login */,
 			);
 			path = Screens;
@@ -116,6 +119,20 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E88843481CA9D733001A7240 /* AbstractVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AbstractVC;
+			sourceTree = "<group>";
+		};
+		E888434A1CA9DF67001A7240 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +279,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E849DAEB1C2ACA3E00187805 /* Base */,
+				E888434B1CA9E36D001A7240 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -358,7 +376,7 @@
 				INFOPLIST_FILE = Beon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.beon.Beon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -371,7 +389,7 @@
 				INFOPLIST_FILE = Beon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.beon.Beon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
