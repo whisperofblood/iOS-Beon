@@ -7,30 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FE498717F552A7E32EB279A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB31E44EFB691E6B7191425 /* libPods.a */; };
-		E849DADF1C2ACA3E00187805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E849DADE1C2ACA3E00187805 /* AppDelegate.swift */; };
-		E849DAE11C2ACA3E00187805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E849DAE01C2ACA3E00187805 /* ViewController.swift */; };
-		E849DAE41C2ACA3E00187805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E849DAE21C2ACA3E00187805 /* Main.storyboard */; };
-		E849DAE71C2ACA3E00187805 /* Beon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E849DAE51C2ACA3E00187805 /* Beon.xcdatamodeld */; };
+		77A58689EE63C3C104025101 /* Pods_Beon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86916CD142BBEC0E950E892 /* Pods_Beon.framework */; };
 		E849DAE91C2ACA3E00187805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E849DAE81C2ACA3E00187805 /* Assets.xcassets */; };
 		E849DAEC1C2ACA3E00187805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E849DAEA1C2ACA3E00187805 /* LaunchScreen.storyboard */; };
 		E88843461CA9D550001A7240 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88843451CA9D550001A7240 /* LoginStoryboard.storyboard */; };
+		E8A197551D0B641B009C5428 /* Beon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8A197511D0B641B009C5428 /* Beon.xcdatamodeld */; };
+		E8A197561D0B641B009C5428 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8A197531D0B641B009C5428 /* GoogleService-Info.plist */; };
+		E8A197571D0B641B009C5428 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8A197541D0B641B009C5428 /* Info.plist */; };
+		E8CE0CB11D0B6009008C479A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E849DADE1C2ACA3E00187805 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		434CEE572DD34668A124AAC4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		8E3102D98AD178C8BA5A7BA8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		CDB31E44EFB691E6B7191425 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		258816FD6F2643D0048D6D33 /* Pods-Beon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beon/Pods-Beon.debug.xcconfig"; sourceTree = "<group>"; };
+		8275D0BB3716E880D471250D /* Pods-Beon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Beon/Pods-Beon.release.xcconfig"; sourceTree = "<group>"; };
+		D86916CD142BBEC0E950E892 /* Pods_Beon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E849DADB1C2ACA3E00187805 /* Beon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E849DADE1C2ACA3E00187805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E849DAE01C2ACA3E00187805 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E849DAE31C2ACA3E00187805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E849DAE61C2ACA3E00187805 /* Beon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Beon.xcdatamodel; sourceTree = "<group>"; };
+		E849DADE1C2ACA3E00187805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Beon/AppCore/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		E849DAE81C2ACA3E00187805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E849DAEB1C2ACA3E00187805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E849DAED1C2ACA3E00187805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E88843451CA9D550001A7240 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
 		E888434B1CA9E36D001A7240 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E8A197521D0B641B009C5428 /* Beon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Beon.xcdatamodel; sourceTree = "<group>"; };
+		E8A197531D0B641B009C5428 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E8A197541D0B641B009C5428 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,28 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FE498717F552A7E32EB279A /* libPods.a in Frameworks */,
+				77A58689EE63C3C104025101 /* Pods_Beon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36B6BE0940225591584AEDA4 /* Pods */ = {
+		C5965E577900B42C0797EB70 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8E3102D98AD178C8BA5A7BA8 /* Pods.debug.xcconfig */,
-				434CEE572DD34668A124AAC4 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		8E23290CBD458CF5D0EC3881 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CDB31E44EFB691E6B7191425 /* libPods.a */,
+				D86916CD142BBEC0E950E892 /* Pods_Beon.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D551A54E7D73C92055D89451 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				258816FD6F2643D0048D6D33 /* Pods-Beon.debug.xcconfig */,
+				8275D0BB3716E880D471250D /* Pods-Beon.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		E849DAD21C2ACA3E00187805 = {
@@ -67,8 +66,8 @@
 			children = (
 				E849DADD1C2ACA3E00187805 /* Beon */,
 				E849DADC1C2ACA3E00187805 /* Products */,
-				36B6BE0940225591584AEDA4 /* Pods */,
-				8E23290CBD458CF5D0EC3881 /* Frameworks */,
+				D551A54E7D73C92055D89451 /* Pods */,
+				C5965E577900B42C0797EB70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,16 +82,12 @@
 		E849DADD1C2ACA3E00187805 /* Beon */ = {
 			isa = PBXGroup;
 			children = (
+				E8CE0CAF1D0B5ECB008C479A /* AppCore */,
 				E888434A1CA9DF67001A7240 /* Views */,
 				E88843471CA9D5AC001A7240 /* Model */,
 				E88843431CA9D50B001A7240 /* Screens */,
-				E849DADE1C2ACA3E00187805 /* AppDelegate.swift */,
-				E849DAE01C2ACA3E00187805 /* ViewController.swift */,
-				E849DAE21C2ACA3E00187805 /* Main.storyboard */,
-				E849DAE81C2ACA3E00187805 /* Assets.xcassets */,
 				E849DAEA1C2ACA3E00187805 /* LaunchScreen.storyboard */,
-				E849DAED1C2ACA3E00187805 /* Info.plist */,
-				E849DAE51C2ACA3E00187805 /* Beon.xcdatamodeld */,
+				E8A197501D0B641B009C5428 /* SupportingFiles */,
 			);
 			path = Beon;
 			sourceTree = "<group>";
@@ -135,6 +130,25 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		E8A197501D0B641B009C5428 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E849DAE81C2ACA3E00187805 /* Assets.xcassets */,
+				E8A197511D0B641B009C5428 /* Beon.xcdatamodeld */,
+				E8A197531D0B641B009C5428 /* GoogleService-Info.plist */,
+				E8A197541D0B641B009C5428 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		E8CE0CAF1D0B5ECB008C479A /* AppCore */ = {
+			isa = PBXGroup;
+			children = (
+				E849DADE1C2ACA3E00187805 /* AppDelegate.swift */,
+			);
+			path = AppCore;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,12 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E849DAF01C2ACA3E00187805 /* Build configuration list for PBXNativeTarget "Beon" */;
 			buildPhases = (
-				820674B7B04AE837379595ED /* Check Pods Manifest.lock */,
+				FE2D92907E5A0C51976B097D /* 📦 Check Pods Manifest.lock */,
 				E849DAD71C2ACA3E00187805 /* Sources */,
 				E849DAD81C2ACA3E00187805 /* Frameworks */,
 				E849DAD91C2ACA3E00187805 /* Resources */,
-				E8B92433CC99672544E6F947 /* Embed Pods Frameworks */,
-				D863BE3420AFAC8DA5277C14 /* Copy Pods Resources */,
+				21F938F6E6804C95999094D5 /* 📦 Embed Pods Frameworks */,
+				DCF9E184ACEEB28453697A01 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,7 +212,8 @@
 			files = (
 				E849DAEC1C2ACA3E00187805 /* LaunchScreen.storyboard in Resources */,
 				E849DAE91C2ACA3E00187805 /* Assets.xcassets in Resources */,
-				E849DAE41C2ACA3E00187805 /* Main.storyboard in Resources */,
+				E8A197571D0B641B009C5428 /* Info.plist in Resources */,
+				E8A197561D0B641B009C5428 /* GoogleService-Info.plist in Resources */,
 				E88843461CA9D550001A7240 /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,49 +221,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		820674B7B04AE837379595ED /* Check Pods Manifest.lock */ = {
+		21F938F6E6804C95999094D5 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Beon/Pods-Beon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF9E184ACEEB28453697A01 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Beon/Pods-Beon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2D92907E5A0C51976B097D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D863BE3420AFAC8DA5277C14 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E8B92433CC99672544E6F947 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -258,23 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E849DAE71C2ACA3E00187805 /* Beon.xcdatamodeld in Sources */,
-				E849DAE11C2ACA3E00187805 /* ViewController.swift in Sources */,
-				E849DADF1C2ACA3E00187805 /* AppDelegate.swift in Sources */,
+				E8A197551D0B641B009C5428 /* Beon.xcdatamodeld in Sources */,
+				E8CE0CB11D0B6009008C479A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E849DAE21C2ACA3E00187805 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E849DAE31C2ACA3E00187805 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E849DAEA1C2ACA3E00187805 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,10 +376,10 @@
 		};
 		E849DAF11C2ACA3E00187805 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E3102D98AD178C8BA5A7BA8 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 258816FD6F2643D0048D6D33 /* Pods-Beon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Beon/Info.plist;
+				INFOPLIST_FILE = Beon/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beon;
@@ -383,10 +389,10 @@
 		};
 		E849DAF21C2ACA3E00187805 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 434CEE572DD34668A124AAC4 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 8275D0BB3716E880D471250D /* Pods-Beon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Beon/Info.plist;
+				INFOPLIST_FILE = Beon/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beon;
@@ -418,12 +424,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E849DAE51C2ACA3E00187805 /* Beon.xcdatamodeld */ = {
+		E8A197511D0B641B009C5428 /* Beon.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E849DAE61C2ACA3E00187805 /* Beon.xcdatamodel */,
+				E8A197521D0B641B009C5428 /* Beon.xcdatamodel */,
 			);
-			currentVersion = E849DAE61C2ACA3E00187805 /* Beon.xcdatamodel */;
+			currentVersion = E8A197521D0B641B009C5428 /* Beon.xcdatamodel */;
 			path = Beon.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

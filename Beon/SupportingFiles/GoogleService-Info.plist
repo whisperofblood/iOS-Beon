@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>164309597492-2uffn29jdrfqcg8s7dr9i8nj2teje5s5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.164309597492-2uffn29jdrfqcg8s7dr9i8nj2teje5s5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCWLOGU-_xDdJOn7k-qyquyAxzWhFsr8uw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>164309597492</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.beon</string>
+	<key>PROJECT_ID</key>
+	<string>beon-5a688</string>
+	<key>STORAGE_BUCKET</key>
+	<string>beon-5a688.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:164309597492:ios:eb77bb44fd90af7f</string>
+	<key>DATABASE_URL</key>
+	<string>https://beon-5a688.firebaseio.com</string>
+</dict>
+</plist>
