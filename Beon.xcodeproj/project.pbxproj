@@ -10,6 +10,8 @@
 		77A58689EE63C3C104025101 /* Pods_Beon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86916CD142BBEC0E950E892 /* Pods_Beon.framework */; };
 		E849DAE91C2ACA3E00187805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E849DAE81C2ACA3E00187805 /* Assets.xcassets */; };
 		E849DAEC1C2ACA3E00187805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E849DAEA1C2ACA3E00187805 /* LaunchScreen.storyboard */; };
+		E85709141D1B277900DDCE98 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85709131D1B277900DDCE98 /* LoginVC.swift */; };
+		E85709161D1B29DB00DDCE98 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85709151D1B29DB00DDCE98 /* Constants.swift */; };
 		E88843461CA9D550001A7240 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88843451CA9D550001A7240 /* LoginStoryboard.storyboard */; };
 		E8A197551D0B641B009C5428 /* Beon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8A197511D0B641B009C5428 /* Beon.xcdatamodeld */; };
 		E8A197561D0B641B009C5428 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8A197531D0B641B009C5428 /* GoogleService-Info.plist */; };
@@ -25,6 +27,8 @@
 		E849DADE1C2ACA3E00187805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Beon/AppCore/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		E849DAE81C2ACA3E00187805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E849DAEB1C2ACA3E00187805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E85709131D1B277900DDCE98 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E85709151D1B29DB00DDCE98 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E88843451CA9D550001A7240 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
 		E888434B1CA9E36D001A7240 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		E8A197521D0B641B009C5428 /* Beon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Beon.xcdatamodel; sourceTree = "<group>"; };
@@ -91,12 +95,19 @@
 			path = Beon;
 			sourceTree = "<group>";
 		};
+		E874E2031D1B204F00172188 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
 		E88843431CA9D50B001A7240 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				E849DAEA1C2ACA3E00187805 /* LaunchScreen.storyboard */,
 				E88843481CA9D733001A7240 /* AbstractVC */,
 				E88843441CA9D530001A7240 /* Login */,
+				E849DAEA1C2ACA3E00187805 /* LaunchScreen.storyboard */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -104,6 +115,7 @@
 		E88843441CA9D530001A7240 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				E85709131D1B277900DDCE98 /* LoginVC.swift */,
 				E88843451CA9D550001A7240 /* LoginStoryboard.storyboard */,
 			);
 			path = Login;
@@ -126,6 +138,7 @@
 		E888434A1CA9DF67001A7240 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E874E2031D1B204F00172188 /* TextFields */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -137,6 +150,7 @@
 				E8A197511D0B641B009C5428 /* Beon.xcdatamodeld */,
 				E8A197531D0B641B009C5428 /* GoogleService-Info.plist */,
 				E8A197541D0B641B009C5428 /* Info.plist */,
+				E85709151D1B29DB00DDCE98 /* Constants.swift */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -275,6 +289,8 @@
 			files = (
 				E8A197551D0B641B009C5428 /* Beon.xcdatamodeld in Sources */,
 				E8CE0CB11D0B6009008C479A /* AppDelegate.swift in Sources */,
+				E85709141D1B277900DDCE98 /* LoginVC.swift in Sources */,
+				E85709161D1B29DB00DDCE98 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

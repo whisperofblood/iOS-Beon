@@ -8,5 +8,7 @@ target 'Beon' do
   # Pods for Beon
   
   pod 'Firebase'
+  pod 'Firebase/Crash'
+  pod 'Firebase/Auth'
 
 end
